@@ -1,0 +1,11 @@
+{
+    "name": "Page redder",
+    "action": {},
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "Turns the page red when you click the icon",
+    "permissions": ["activeTab","scripting"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
